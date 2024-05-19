@@ -1,8 +1,10 @@
 from checkers import checkout, getout
 import yaml
 
+
 with open('config.yaml') as f:
     data = yaml.safe_load(f)
+
 
 class TestPositive:
     def test_step1(self, create_folders, clear_folders, create_files, print_time):

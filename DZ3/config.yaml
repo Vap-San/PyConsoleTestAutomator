@@ -3,7 +3,7 @@ folder_out: /home/vp/out
 folder_ext: /home/vp/folder1
 folder_ext2: /home/vp/folder2
 count: 5
-len_name: 10
+len_name: 5
 bs: 1M
 type: zip
 alg_hash: scrcCRC32

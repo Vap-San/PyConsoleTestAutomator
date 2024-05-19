@@ -11,6 +11,7 @@ with open('config.yaml') as f:
 def create_folders():
     return checkout("mkdir {} {} {} {}".format(data["folder_in"], data["folder_in"], data["folder_ext"], data["folder_ext2"]), "")
 
+
 @pytest.fixture()
 def clear_folders():
     return checkout("rm -rf {}/* {}/* {}/* {}/*".format(data["folder_in"], data["folder_in"], data["folder_ext"], data["folder_ext2"]), "")
